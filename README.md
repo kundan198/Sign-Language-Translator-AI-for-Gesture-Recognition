@@ -18,9 +18,7 @@ Outputs both text and speech for recognized gestures.
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-repo/ASL-Recognition.git
-   cd ASL-Recognition
-   ```
+   git clone [https://github.com/kundan198/Sign-Language-Translator-AI-for-Gesture-Recognition]
 
 2. **Create and activate a virtual environment:**
    ```sh
