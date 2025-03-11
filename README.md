@@ -4,7 +4,7 @@ This project enables **real-time ASL recognition** using deep learning.
 
 This project enables real-time ASL (American Sign Language) recognition using deep learning and MediaPipe. The system captures hand gestures, extracts key features, and predicts the corresponding ASL alphabet.
 
-Features
+## Features
 
 Uses MediaPipe for hand tracking.
 
