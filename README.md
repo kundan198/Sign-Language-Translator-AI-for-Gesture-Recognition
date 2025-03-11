@@ -1,2 +1,47 @@
 # Sign-Language-Translator-AI-for-Gesture-Recognition
-Sign Language Translator: A real-time ASL gesture recognition system using MobileNet CNN. Translates hand gestures into text via webcam input. Built with TensorFlow, OpenCV, and Python. #DeepLearning #ComputerVision #ASL
+
+This project enables **real-time ASL recognition** using deep learning.
+
+## Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-repo/ASL-Recognition.git
+   cd ASL-Recognition
+   ```
+
+2. **Create and activate a virtual environment:**
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+   ```
+
+3. **Install dependencies:**
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+## Running the Program
+
+1. **Collect dataset (using MediaPipe to extract landmarks):**
+   ```sh
+   python collect_data.py
+   ```
+
+2. **Train the model:**
+   ```sh
+   python train_data.py
+   ```
+
+3. **Run the prediction (real-time or image-based):**
+   ```sh
+   python predict_data.py
+   ```
+
+## Notes
+
+- Ensure you have a **webcam** connected for real-time predictions.
+- If accuracy is low, consider **increasing dataset size** or **tweaking hyperparameters**.
+
+If you have any questions or issues, feel free to ask! 🚀
+
