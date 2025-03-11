@@ -31,6 +31,11 @@ Outputs both text and speech for recognized gestures.
    pip install -r requirements.txt
    ```
 
+4. **Download Datasets:**
+   ```sh
+   [https://www.kaggle.com/datasets/grassknoted/asl-alphabet]
+   ```
+
 ## Running the Program
 
 1. **Collect dataset (using MediaPipe to extract landmarks):**
